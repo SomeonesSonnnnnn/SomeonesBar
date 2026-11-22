@@ -53,16 +53,6 @@ SomeonesBar checks this page for new releases. When one is ready, the notch show
 
 Windows 10 (version 2004 or newer) or Windows 11, 64-bit. Nothing else: the .NET runtime is included in the installer.
 
-## Build from source
-
-You need the .NET 8 SDK.
-
-```
-dotnet publish -c Release -r win-x64 --self-contained false -o publish
-```
-
-To build the installer and publish a release, run `Release.bat 1.0.1` (see the comments in that file).
-
 ## Credits
 
 Made by [SomeonesSon](https://someonesson.xyz).
